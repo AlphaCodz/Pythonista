@@ -1,0 +1,41 @@
+/* div{
+    color: red;
+} */ 
+
+.firstDiv{
+    color: blue;
+}
+
+.secondDiv{
+    color:red
+}
+
+#singledout{
+    color: green;
+    text-decoration: line-through;
+}
+
+/* *{
+    color: black;
+}  */
+
+/* DIFFERENT TYPES OF SELECTORS 
+1. JSON Sibling
+
+what this will do is any unordered list that is next to an h3 tag will be bordered*/
+
+h3 + ul{
+    border: 4px dotted purple ;
+}
+
+/* 2. Descendants */
+
+li a{
+    color: red;
+}
+
+li a[href="www.google.com"]{
+    color: blue;
+    border: 2px solid orange;
+    border-radius: 12px;
+}
