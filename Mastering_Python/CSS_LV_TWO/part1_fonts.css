@@ -1,0 +1,33 @@
+h1{
+    font-family: "arial";
+
+}
+
+p{
+    font-family: monospace;
+}
+
+/* body{
+    font-size: 20px;
+} 
+
+using em values
+1em = 16px
+2em = 32px*/
+
+body{
+    font-size: 20px; /*Default Value */
+}
+
+#two{
+    font-size: 1.0em;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
