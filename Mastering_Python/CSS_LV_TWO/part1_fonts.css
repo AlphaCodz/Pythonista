@@ -1,11 +1,13 @@
 h1{
-    font-family: "arial";
+    font-family: 'Send Flowers', cursive;
 
 }
 
-p{
-    font-family: monospace;
-}
+p {
+    font-family: 'PetitFormalScriptRegular';
+    font-weight: normal;
+    font-style: normal;
+ }
 
 /* body{
     font-size: 20px;
