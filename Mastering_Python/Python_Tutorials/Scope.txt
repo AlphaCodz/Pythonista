@@ -1,0 +1,6 @@
+Python Scopes follow the LEGB rule
+* L = LOCAL
+* E = ENCLOSING FUNCTION LOCALS
+* G = GLOBAL
+* B = BUILT-IN
+
