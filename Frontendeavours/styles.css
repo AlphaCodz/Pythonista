@@ -1,0 +1,132 @@
+body{
+    background-image: url("includes/Gradient.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    text-align: justify;
+    font-family: 'Send Flowers', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30pt;
+    /* Margin order - top,right, bottom left */
+    margin-top: -20px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+.nav{
+    display: block;
+    text-align: right;
+    margin-top: -80px;
+    margin-right: 260px;
+}
+
+.nav a{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(216, 148, 71);
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+.search input{  
+    border: 2px solid white;
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    margin-left: 85%;
+    margin-top: -25px;
+    width: 200px;
+    height: 25px;
+}
+
+.search input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 11pt;
+}
+
+.search button{
+    height: 50px;
+    width: 500px;
+}
+
+.card {
+    backdrop-filter: blur(16px) saturate(100%);
+    -webkit-backdrop-filter: blur(16px) saturate(100%);
+    background-color: rgba(234, 239, 247, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin: auto;
+    padding: 20px;
+    height: 500px;
+    width: 800px;
+    margin-top: 70px;
+
+}
+
+.card img{
+    height: 350px;
+    margin-top: 171px;  
+    margin-left: 491px;
+}
+
+.card h4{
+    font-family: 'Hind', sans-serif;
+    font-family: 'Send Flowers', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20pt;
+
+    margin-top: -323px;
+    margin-left: 42%;
+    color: rgb(119, 79, 27);
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 230px;
+
+}
+
+#html{
+    height: 150px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: -100px;
+    border: 3px solid rgb(248, 243, 243);
+    border-radius: 10px;
+
+    
+}
+
+#content{
+    margin-top: -450px;
+    color: rgb(119, 79, 27);
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 290px;
+}
+
+#content{
+    font-family: 'Hind', sans-serif;
+    font-family: 'Send Flowers', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20pt;
+}
+
+#content{
+    border-left: 6px solid rgb(136, 122, 58);
+}
